@@ -23,7 +23,7 @@ const Home = () => {
 
     return (
         <section className='w-full min-h-[calc(100vh-80px)] h-full flex flex-col justify-between max-w-[800px] mx-auto pt-7'>
-            <form className='flex mx-auto pt-28'>
+            <form className='flex mx-auto pt-28 pb-4'>
                 <input ref={inputSearchRef}
                     className=" bg-inherit border-2 border-r-0 pl-4 text-lg font-medium text-almost-white focus-visible:outline-none"
                     type="search"
