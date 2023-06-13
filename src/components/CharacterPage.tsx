@@ -49,7 +49,7 @@ const CharacterPage = () => {
     }, [id])
 
     return (
-        <div className='mx-40 pt-10 pb-24'>
+        <section className='mx-40 pt-10 pb-24'>
             <div className='flex justify-around'>
                 <div className='flex items-center  px-9'>
                     <div className='bg-almost-white rounded-full p-3 w-fit'>
@@ -114,7 +114,7 @@ const CharacterPage = () => {
                     {(films && films.length === 0) ? <p className='text-almost-white font-semibold text-center w-full pb-6'>Фильмы не найдены</p> : films ? films.map((item: IFilm, index: React.Key) => <FilmItem data={item} key={index} />) : <p className='text-almost-white font-semibold text-center w-full pb-6'>Загрузка...</p>}
                 </ul>
             </div>
-        </div>
+        </section>
     );
 };
 

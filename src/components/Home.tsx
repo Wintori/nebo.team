@@ -22,7 +22,7 @@ const Home = () => {
 
 
     return (
-        <div className='w-full min-h-[calc(100vh-80px)] h-full flex flex-col justify-between max-w-[800px] mx-auto pt-7'>
+        <section className='w-full min-h-[calc(100vh-80px)] h-full flex flex-col justify-between max-w-[800px] mx-auto pt-7'>
             <form className='flex mx-auto pt-28'>
                 <input ref={inputSearchRef}
                     className=" bg-inherit border-2 border-r-0 pl-4 text-lg font-medium text-almost-white focus-visible:outline-none"
@@ -47,7 +47,7 @@ const Home = () => {
                     (isNext && !isLoading) ? <Button isActive={true} styles={'text-base font-bold text-white'} text={'Вперед'} onClick={() => { setPage(page + 1); }} /> : <Button isActive={false} styles={'text-base font-bold text-white'} text={'Вперед'} onClick={() => { return }} />
                 }
             </div>
-        </div>
+        </section>
     );
 };
 

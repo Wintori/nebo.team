@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 import { PeopleContext } from './services';
 import { getPeople, getPeopleWithFilter } from './utils/api';
 import { AllCharacters } from './services';
-import { getAll, saveAll } from './utils/localstorage'
+import { saveAll } from './utils/localstorage'
 
 function App() {
   const [people, setPeople] = useState<AllCharacters>({
