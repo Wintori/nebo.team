@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ab11d09.css",
+    "main.js": "/static/js/main.9687866b.js",
+    "static/media/Star_wars.png": "/static/media/Star_wars.1849b09b65f9a9546f20.png",
+    "static/media/spaceship.svg": "/static/media/spaceship.dbd004683034c502e5ce561b64bfc098.svg",
+    "static/media/character-avatar.svg": "/static/media/character-avatar.cb70c3636db89a39819e2f239f3ee14a.svg",
+    "static/media/right-arrow.svg": "/static/media/right-arrow.ca0e479071c8e8583620a56ce58b3005.svg",
+    "index.html": "/index.html",
+    "main.1ab11d09.css.map": "/static/css/main.1ab11d09.css.map",
+    "main.9687866b.js.map": "/static/js/main.9687866b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ab11d09.css",
+    "static/js/main.9687866b.js"
+  ]
+}
