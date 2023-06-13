@@ -25,8 +25,6 @@ function App() {
   useEffect(() => {
     if (!localStorage.visited) {
       saveAll('visited', [])
-    } else {
-      console.log(getAll('visited'))
     }
   }, [])
 
